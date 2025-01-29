@@ -40,3 +40,24 @@ div {
   color: #f0f0f0;
   line-height: 1.4;
 }
+
+.priority {
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.priority.low {
+  color: green;
+}
+
+.priority.medium {
+  color: orange;
+}
+
+.priority.high {
+  color: red;
+  font-weight: bold;
+}
