@@ -80,3 +80,11 @@ button {
   color: rgb(230, 237, 230);
 }
 
+.deleteButton {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: red;
+}
+
+
